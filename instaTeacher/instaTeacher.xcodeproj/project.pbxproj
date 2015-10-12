@@ -66,9 +66,9 @@
 		6F6792091BCB924800AF8770 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F6792171BCB940200AF8770 /* DrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrawingView.swift; path = ../DrawingView.swift; sourceTree = "<group>"; };
 		6F6792191BCB942B00AF8770 /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Line.swift; path = ../Line.swift; sourceTree = "<group>"; };
-		6F67921B1BCB96D300AF8770 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
-		6F67921C1BCB96D300AF8770 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
-		6F67921D1BCB96D300AF8770 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		6F67921B1BCB96D300AF8770 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = instaTeacher/Bolts.framework; sourceTree = "<group>"; };
+		6F67921C1BCB96D300AF8770 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = instaTeacher/Parse.framework; sourceTree = "<group>"; };
+		6F67921D1BCB96D300AF8770 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = instaTeacher/ParseUI.framework; sourceTree = "<group>"; };
 		6F6792211BCB971E00AF8770 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		6F6792231BCB972800AF8770 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		6F6792251BCB973000AF8770 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -123,16 +123,7 @@
 		6F6791D91BCB924800AF8770 = {
 			isa = PBXGroup;
 			children = (
-				6F6792331BCB978700AF8770 /* SystemConfiguration.framework */,
-				6F6792311BCB976500AF8770 /* libsqlite3.tbd */,
-				6F67922F1BCB975C00AF8770 /* libz.tbd */,
-				6F67922D1BCB975000AF8770 /* StoreKit.framework */,
-				6F67922B1BCB974700AF8770 /* Security.framework */,
-				6F6792291BCB974000AF8770 /* QuartzCore.framework */,
-				6F6792271BCB973900AF8770 /* CoreLocation.framework */,
-				6F6792251BCB973000AF8770 /* CoreGraphics.framework */,
-				6F6792231BCB972800AF8770 /* CFNetwork.framework */,
-				6F6792211BCB971E00AF8770 /* AudioToolbox.framework */,
+				6F6792391BCB9A4600AF8770 /* Frameworks */,
 				6F6791E41BCB924800AF8770 /* instaTeacher */,
 				6F6791FB1BCB924800AF8770 /* instaTeacherTests */,
 				6F6792061BCB924800AF8770 /* instaTeacherUITests */,
@@ -154,17 +145,10 @@
 		6F6791E41BCB924800AF8770 /* instaTeacher */ = {
 			isa = PBXGroup;
 			children = (
-				6F67921B1BCB96D300AF8770 /* Bolts.framework */,
-				6F67921C1BCB96D300AF8770 /* Parse.framework */,
-				6F67921D1BCB96D300AF8770 /* ParseUI.framework */,
-				6F6792171BCB940200AF8770 /* DrawingView.swift */,
-				6F6792191BCB942B00AF8770 /* Line.swift */,
-				6F6791E51BCB924800AF8770 /* AppDelegate.swift */,
-				6F6791E71BCB924800AF8770 /* FirstViewController.swift */,
-				6F6791E91BCB924800AF8770 /* SecondViewController.swift */,
-				6F6791EB1BCB924800AF8770 /* Main.storyboard */,
+				6F67923C1BCB9A7C00AF8770 /* Controller */,
+				6F67923B1BCB9A6D00AF8770 /* View */,
+				6F67923A1BCB9A6600AF8770 /* Model */,
 				6F6791EE1BCB924800AF8770 /* Assets.xcassets */,
-				6F6791F01BCB924800AF8770 /* LaunchScreen.storyboard */,
 				6F6791F31BCB924800AF8770 /* Info.plist */,
 			);
 			path = instaTeacher;
@@ -186,6 +170,54 @@
 				6F6792091BCB924800AF8770 /* Info.plist */,
 			);
 			path = instaTeacherUITests;
+			sourceTree = "<group>";
+		};
+		6F6792391BCB9A4600AF8770 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F67921B1BCB96D300AF8770 /* Bolts.framework */,
+				6F67921C1BCB96D300AF8770 /* Parse.framework */,
+				6F67921D1BCB96D300AF8770 /* ParseUI.framework */,
+				6F6792331BCB978700AF8770 /* SystemConfiguration.framework */,
+				6F6792311BCB976500AF8770 /* libsqlite3.tbd */,
+				6F67922F1BCB975C00AF8770 /* libz.tbd */,
+				6F67922D1BCB975000AF8770 /* StoreKit.framework */,
+				6F67922B1BCB974700AF8770 /* Security.framework */,
+				6F6792291BCB974000AF8770 /* QuartzCore.framework */,
+				6F6792271BCB973900AF8770 /* CoreLocation.framework */,
+				6F6792251BCB973000AF8770 /* CoreGraphics.framework */,
+				6F6792231BCB972800AF8770 /* CFNetwork.framework */,
+				6F6792211BCB971E00AF8770 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F67923A1BCB9A6600AF8770 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6F6792191BCB942B00AF8770 /* Line.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6F67923B1BCB9A6D00AF8770 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6F6791EB1BCB924800AF8770 /* Main.storyboard */,
+				6F6792171BCB940200AF8770 /* DrawingView.swift */,
+				6F6791F01BCB924800AF8770 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6F67923C1BCB9A7C00AF8770 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6F6791E51BCB924800AF8770 /* AppDelegate.swift */,
+				6F6791E71BCB924800AF8770 /* FirstViewController.swift */,
+				6F6791E91BCB924800AF8770 /* SecondViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
