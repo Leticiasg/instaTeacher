@@ -20,8 +20,20 @@ class FirstViewController: UIViewController {
         lines.removeAll()   //remove todos as linhas
         drawView.uptade()   //atualiza lousa
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        let board = PFObject(className: "Board")
+        board.setObject("oi", forKey: "Content")
+        board.saveInBackgroundWithBlock { (succeeded, error) -> Void in
+            if succeeded {
+                print("Object Uploaded")
+            } else {
+                print("Error: \(error) \(error!.userInfo)")
+            }
+        }
+        
+
     }
     
     override func didReceiveMemoryWarning() {

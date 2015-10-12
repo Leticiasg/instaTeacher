@@ -17,6 +17,19 @@
 		6F6792081BCB924800AF8770 /* instaTeacherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6792071BCB924800AF8770 /* instaTeacherUITests.swift */; };
 		6F6792181BCB940200AF8770 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6792171BCB940200AF8770 /* DrawingView.swift */; settings = {ASSET_TAGS = (); }; };
 		6F67921A1BCB942B00AF8770 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6792191BCB942B00AF8770 /* Line.swift */; settings = {ASSET_TAGS = (); }; };
+		6F67921E1BCB96D300AF8770 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F67921B1BCB96D300AF8770 /* Bolts.framework */; settings = {ASSET_TAGS = (); }; };
+		6F67921F1BCB96D300AF8770 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F67921C1BCB96D300AF8770 /* Parse.framework */; settings = {ASSET_TAGS = (); }; };
+		6F6792201BCB96D300AF8770 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F67921D1BCB96D300AF8770 /* ParseUI.framework */; settings = {ASSET_TAGS = (); }; };
+		6F6792221BCB971E00AF8770 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F6792211BCB971E00AF8770 /* AudioToolbox.framework */; };
+		6F6792241BCB972800AF8770 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F6792231BCB972800AF8770 /* CFNetwork.framework */; };
+		6F6792261BCB973000AF8770 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F6792251BCB973000AF8770 /* CoreGraphics.framework */; };
+		6F6792281BCB973900AF8770 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F6792271BCB973900AF8770 /* CoreLocation.framework */; };
+		6F67922A1BCB974000AF8770 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F6792291BCB974000AF8770 /* QuartzCore.framework */; };
+		6F67922C1BCB974700AF8770 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F67922B1BCB974700AF8770 /* Security.framework */; };
+		6F67922E1BCB975000AF8770 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F67922D1BCB975000AF8770 /* StoreKit.framework */; };
+		6F6792301BCB975C00AF8770 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F67922F1BCB975C00AF8770 /* libz.tbd */; };
+		6F6792321BCB976500AF8770 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F6792311BCB976500AF8770 /* libsqlite3.tbd */; };
+		6F6792341BCB978700AF8770 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F6792331BCB978700AF8770 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +66,20 @@
 		6F6792091BCB924800AF8770 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F6792171BCB940200AF8770 /* DrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrawingView.swift; path = ../DrawingView.swift; sourceTree = "<group>"; };
 		6F6792191BCB942B00AF8770 /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Line.swift; path = ../Line.swift; sourceTree = "<group>"; };
+		6F67921B1BCB96D300AF8770 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		6F67921C1BCB96D300AF8770 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		6F67921D1BCB96D300AF8770 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		6F6792211BCB971E00AF8770 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6F6792231BCB972800AF8770 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		6F6792251BCB973000AF8770 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6F6792271BCB973900AF8770 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6F6792291BCB974000AF8770 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6F67922B1BCB974700AF8770 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		6F67922D1BCB975000AF8770 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		6F67922F1BCB975C00AF8770 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		6F6792311BCB976500AF8770 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		6F6792331BCB978700AF8770 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6F6792351BCB97C300AF8770 /* instaTeacher-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "instaTeacher-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +87,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F6792341BCB978700AF8770 /* SystemConfiguration.framework in Frameworks */,
+				6F6792321BCB976500AF8770 /* libsqlite3.tbd in Frameworks */,
+				6F6792301BCB975C00AF8770 /* libz.tbd in Frameworks */,
+				6F67922E1BCB975000AF8770 /* StoreKit.framework in Frameworks */,
+				6F67922C1BCB974700AF8770 /* Security.framework in Frameworks */,
+				6F67922A1BCB974000AF8770 /* QuartzCore.framework in Frameworks */,
+				6F6792281BCB973900AF8770 /* CoreLocation.framework in Frameworks */,
+				6F6792261BCB973000AF8770 /* CoreGraphics.framework in Frameworks */,
+				6F6792241BCB972800AF8770 /* CFNetwork.framework in Frameworks */,
+				6F6792221BCB971E00AF8770 /* AudioToolbox.framework in Frameworks */,
+				6F6792201BCB96D300AF8770 /* ParseUI.framework in Frameworks */,
+				6F67921F1BCB96D300AF8770 /* Parse.framework in Frameworks */,
+				6F67921E1BCB96D300AF8770 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,10 +123,21 @@
 		6F6791D91BCB924800AF8770 = {
 			isa = PBXGroup;
 			children = (
+				6F6792331BCB978700AF8770 /* SystemConfiguration.framework */,
+				6F6792311BCB976500AF8770 /* libsqlite3.tbd */,
+				6F67922F1BCB975C00AF8770 /* libz.tbd */,
+				6F67922D1BCB975000AF8770 /* StoreKit.framework */,
+				6F67922B1BCB974700AF8770 /* Security.framework */,
+				6F6792291BCB974000AF8770 /* QuartzCore.framework */,
+				6F6792271BCB973900AF8770 /* CoreLocation.framework */,
+				6F6792251BCB973000AF8770 /* CoreGraphics.framework */,
+				6F6792231BCB972800AF8770 /* CFNetwork.framework */,
+				6F6792211BCB971E00AF8770 /* AudioToolbox.framework */,
 				6F6791E41BCB924800AF8770 /* instaTeacher */,
 				6F6791FB1BCB924800AF8770 /* instaTeacherTests */,
 				6F6792061BCB924800AF8770 /* instaTeacherUITests */,
 				6F6791E31BCB924800AF8770 /* Products */,
+				6F6792351BCB97C300AF8770 /* instaTeacher-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +154,9 @@
 		6F6791E41BCB924800AF8770 /* instaTeacher */ = {
 			isa = PBXGroup;
 			children = (
+				6F67921B1BCB96D300AF8770 /* Bolts.framework */,
+				6F67921C1BCB96D300AF8770 /* Parse.framework */,
+				6F67921D1BCB96D300AF8770 /* ParseUI.framework */,
 				6F6792171BCB940200AF8770 /* DrawingView.swift */,
 				6F6792191BCB942B00AF8770 /* Line.swift */,
 				6F6791E51BCB924800AF8770 /* AppDelegate.swift */,
@@ -196,6 +250,7 @@
 		6F6791DA1BCB924800AF8770 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = LazyFox;
 				TargetAttributes = {
@@ -410,10 +465,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/instaTeacher",
+				);
 				INFOPLIST_FILE = instaTeacher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LF.instaTeacher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "instaTeacher-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -421,10 +483,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/instaTeacher",
+				);
 				INFOPLIST_FILE = instaTeacher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LF.instaTeacher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "instaTeacher-Bridging-Header.h";
 			};
 			name = Release;
 		};
