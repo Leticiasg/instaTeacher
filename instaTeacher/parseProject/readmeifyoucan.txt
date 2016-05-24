@@ -1,3 +1,4 @@
+Contigência}
 Porque estão contingênciando verbas?#
 A cada trimestre é feita uma previsão orçamentária na Unicamp para planejar e organizar as contas. A proposta do contingenciamento apareceu devido a diferença entre as duas últimas previsões. Como 92.68% da receita vem do repasse do ICMS, a projeção depende de diversos fatores, entre eles a projeção do PIB. Em Dezembro de 2015, foram estimadas as receitas e as despesas do ano de 2016 com a previsão do crescimento do PIB a -0.4%. Porém, em Abril de 2016, quando a previsão foi revista, o crescimento do PIB estava estimado em -3.9%. Então, essa nova previsão contou com três diferenças. 
 	1. A diminuição estimada do repasse do ICMS em 40 milhões de reais;
@@ -26,5 +27,6 @@ Qual a porcentagem de alunos moram na moradia?#
 O número de alunos que vivem na moradia representa cerca de 3% sobre o total de alunos da Unicamp (graduação, mestrado e doutorado).
 Fonte: Anuário Estatístico 2015
 |
+Cotas}
 pergunta#
 resposta
