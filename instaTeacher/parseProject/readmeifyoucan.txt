@@ -1,4 +1,5 @@
-Porque estão contingênciando verbas?#A cada trimestre é feita uma previsão orçamentária na Unicamp para planejar e organizar as contas. A proposta do contingenciamento apareceu devido a diferença entre as duas últimas previsões. Como 92.68% da receita vem do repasse do ICMS, a projeção depende de diversos fatores, entre eles a projeção do PIB. Em Dezembro de 2015, foram estimadas as receitas e as despesas do ano de 2016 com a previsão do crescimento do PIB a -0.4%. Porém, em Abril de 2016, quando a previsão foi revista, o crescimento do PIB estava estimado em -3.9%. Então, essa nova previsão contou com três diferenças. 
+Porque estão contingênciando verbas?#
+A cada trimestre é feita uma previsão orçamentária na Unicamp para planejar e organizar as contas. A proposta do contingenciamento apareceu devido a diferença entre as duas últimas previsões. Como 92.68% da receita vem do repasse do ICMS, a projeção depende de diversos fatores, entre eles a projeção do PIB. Em Dezembro de 2015, foram estimadas as receitas e as despesas do ano de 2016 com a previsão do crescimento do PIB a -0.4%. Porém, em Abril de 2016, quando a previsão foi revista, o crescimento do PIB estava estimado em -3.9%. Então, essa nova previsão contou com três diferenças. 
 	1. A diminuição estimada do repasse do ICMS em 40 milhões de reais;
 	2. O aumento do rendimento dos investimentos das aplicações financeiras em 5 milhões de reais;
 	3. O aumento das despesas em 10 milhões de reais. 
@@ -13,7 +14,17 @@ Os cortes estão sendo justificados pela diminuição de repasse de icms e só o
 	Fonte:  Resolução GR nº 10/2016
 	Link: http://www.pg.unicamp.br/mostra_norma.php?id_norma=3965 
 |
-pergunta1#resposta 1|
-pergunta1#resposta 1|
-pergunta1#resposta 1|
-pergunta2#resposta
+
+Qual é a evolução da moradia?
+#A moradia passou de 950 moradores em 2005 para 1111 em 2014.
+Fonte: Anuário Estatístico 2015
+|
+Quantos alunos moram na moradia?#
+Em 2014, viviam 1111 pessoas na moradia. Segundo o censo realizado pelos próprios moradores em 2016, hoje há 1031 moradores.
+Fonte: Anuário Estatístico 2015 e Censo Moradia abr/2016|
+Qual a porcentagem de alunos moram na moradia?#
+O número de alunos que vivem na moradia representa cerca de 3% sobre o total de alunos da Unicamp (graduação, mestrado e doutorado).
+Fonte: Anuário Estatístico 2015
+|
+pergunta#
+resposta
